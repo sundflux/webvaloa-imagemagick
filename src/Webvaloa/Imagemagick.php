@@ -86,6 +86,16 @@ class Imagemagick
     private $imagick;
 
     /**
+     * @var string
+     */
+    private $background;
+
+    /**
+     * @var bool
+     */
+    private $flatten;
+
+    /**
      * Imagemagick constructor.
      *
      * @param $file
